@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connexion - Haute Sel</title>
+</head>
+<body>
+    <header>
+        <h1>HAUTE SEL</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <div class="login-card">
+                <h2>Connexion à votre espace</h2>
+                <p class="subtitle">Accédez à vos applications et projets</p>
+                
+                <form id="login-form">
+                    <div class="form-group">
+                        <label for="email">Email professionnel</label>
+                        <input type="email" id="email" name="email" required 
+                               placeholder="votre.email@hautesel.com">
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="password">Mot de passe</label>
+                        <input type="password" id="password" name="password" required>
+                    </div>
+                    
+                    <div class="form-options">
+                        <label>
+                            <input type="checkbox" id="remember">
+                            Se souvenir de moi
+                        </label>
+                        <a href="#" class="forgot-link">Mot de passe oublié ?</a>
+                    </div>
+                    
+                    <button type="submit" class="login-btn">Se connecter</button>
+                    
+                    <div class="separator">
+                        <span>ou</span>
+                    </div>
+                    
+                    <button type="button" class="google-btn">
+                        Se connecter avec Google
+                    </button>
+                </form>
+                
+                <p class="register-link">
+                    Nouveau chez Haute Sel ? 
+                    <a href="#">Créer un compte</a>
+                </p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Haute Sel. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
